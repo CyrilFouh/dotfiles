@@ -49,3 +49,7 @@
 [user]
 	email = cyril.fougeres@gmail.com
 	name = Cyril Fougeres
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
